@@ -1,0 +1,19 @@
+class Student{
+	private String name;
+	int regNo;
+	int age;
+}
+
+ACCESS SPECIFIERS
+1. default  :   access within the package
+2. private  :   access within the class (through public methods )
+3. public    :   access from everywhere
+4. protected   :  accessed within package and derived classes
+
+
+Array of Objects 
+Student object[5] = new Student();
+for(int i=0;i<5;i++)
+{
+	object[i] = new Student();
+}
